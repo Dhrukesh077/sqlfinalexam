@@ -70,182 +70,182 @@ Tracks borrowing, returning, and fines.
 ## 🔹 Q1. View All Books
 Displays complete book records.
 
-![Q1](./q1.png)
+![Q1](./1.png)
 
 ---
 
 ## 🔹 Q2. Books Published After 2015
 Filters modern books based on publication date.
 
-![Q2](./q2.png)
+![Q2](./2.png)
 
 ---
 
 ## 🔹 Q3. Top 5 Most Expensive Books
 Sorts books by price and returns highest valued.
 
-![Q3](./q3.png)
+![Q3](./3.png)
 
 ---
 
 ## 🔹 Q4. Members Joined Before 2022
 Filters members based on membership date.
 
-![Q4](./q4.png)
+![Q4](./4.png)
 
 ---
 
 ## 🔹 Q5. Books with Category = 'Science' AND Price < 500
 Applies conditional filtering using AND operator.
 
-![Q5](./q5.png)
+![Q5](./5.png)
 
 ---
 
 ## 🔹 Q6. Books NOT Available for Borrowing
 Identifies books with zero available copies.
 
-![Q6](./q6.png)
+![Q6](./6.png)
 
 ---
 
 ## 🔹 Q7. Members Joined After 2020 OR Borrowed Multiple Books
 Uses OR condition for flexible filtering.
 
-![Q7](./q7.png)
+![Q7](./7.png)
 
 ---
 
 ## 🔹 Q8. Books Sorted Alphabetically
 Orders books using ORDER BY clause.
 
-![Q8](./q8.png)
+![Q8](./8.png)
 
 ---
 
 ## 🔹 Q9. Number of Books Borrowed by Each Member
 Uses GROUP BY to analyze member activity.
 
-![Q9](./q9.png)
+![Q9](./9.png)
 
 ---
 
 ## 🔹 Q10. Total Books per Category
 Counts number of books grouped by category.
 
-![Q10](./q10.png)
+![Q10](./10.png)
 
 ---
 
 ## 🔹 Q11. Average Book Price
 Calculates average price using AVG().
 
-![Q11](./q11.png)
+![Q11](./11.png)
 
 ---
 
 ## 🔹 Q12. Most Borrowed Book
 Identifies book with highest borrow count.
 
-![Q12](./q12.png)
+![Q12](./12.png)
 
 ---
 
 ## 🔹 Q13. Total Fine Collected
 Calculates total fines using SUM().
 
-![Q13](./q13.png)
+![Q13](./13.png)
 
 ---
 
 ## 🔹 Q14. Books with Author Names (INNER JOIN)
 Combines books and authors data.
 
-![Q14](./q14.png)
+![Q14](./14.png)
 
 ---
 
 ## 🔹 Q15. Members and Borrowed Books (LEFT JOIN)
 Displays all members including those without transactions.
 
-![Q15](./q15.png)
+![Q15](./15.png)
 
 ---
 
 ## 🔹 Q16. Members Who Never Borrowed Books
 Uses NULL filtering to find inactive members.
 
-![Q16](./q16.png)
+![Q16](./16.png)
 
 ---
 
 ## 🔹 Q17. Books Borrowed by Members (Subquery)
 Filters books based on borrowing conditions.
 
-![Q17](./q17.png)
+![Q17](./17.png)
 
 ---
 
 ## 🔹 Q18. Extract Year from Published Date
 Uses YEAR() function for analysis.
 
-![Q18](./q18.png)
+![Q18](./18.png)
 
 ---
 
 ## 🔹 Q19. Calculate Borrow Duration (DATEDIFF)
 Finds difference between borrow and return dates.
 
-![Q19](./q19.png)
+![Q19](./19.png)
 
 ---
 
 ## 🔹 Q20. Format Borrow Date
 Converts date into readable format.
 
-![Q20](./q20.png)
+![Q20](./20.png)
 
 ---
 
 ## 🔹 Q21. Convert Book Titles to Uppercase
 Uses UPPER() string function.
 
-![Q21](./q21.png)
+![Q21](./21.png)
 
 ---
 
 ## 🔹 Q22. Trim Author Names
 Removes unwanted spaces using TRIM().
 
-![Q22](./q22.png)
+![Q22](./22.png)
 
 ---
 
 ## 🔹 Q23. Replace NULL Emails
 Handles missing values using IFNULL().
 
-![Q23](./q23.png)
+![Q23](./23.png)
 
 ---
 
 ## 🔹 Q24. Rank Books by Borrow Count
 Uses RANK() window function.
 
-![Q24](./q24.png)
+![Q24](./24.png)
 
 ---
 
 ## 🔹 Q25. Running Borrow Count per Member
 Uses window function with PARTITION BY.
 
-![Q25](./q25.png)
+![Q25](./25.png)
 
 ---
 
 ## 🔹 Q26. Member Activity Status (CASE)
 Classifies members as Active/Inactive.
 
-![Q26](./q26.png)
+![Q26](./26.png)
 
 ---
 
@@ -255,7 +255,7 @@ Classifies books as:
 - Classic  
 - Regular  
 
-![Q27](./q27.png)
+![Q27](./27.png)
 
 ---
 
